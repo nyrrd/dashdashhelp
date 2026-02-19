@@ -9,8 +9,6 @@ export XDG_CACHE_HOME=$HOME/.cache  # Where user-specific non-essential (cached)
 export XDG_DATA_HOME=$HOME/.local/share             # Where user-specific data files should be written (analogous to /usr/share).
 export XDG_STATE_HOME=$HOME/.local/state            # Where user-specific state files should be written (analogous to /var/lib).
 ```
-
-
 ZSH:
 ```bash
 ## -- ZSH BABY!! -- ##
