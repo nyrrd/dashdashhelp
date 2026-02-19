@@ -1,4 +1,5 @@
-# dashdashhelp
+# --help
+
 Environment Variables:
 XDG:
 ```shell
