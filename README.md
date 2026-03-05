@@ -1,7 +1,7 @@
 # `--help`
 
-Environment Variables:
-XDG:
+### Environment Variables:
+**XDG:** Keep your `~/` clean.
 ```bash
 ## -- XDG USER DIRS -- ##
 export XDG_CONFIG_HOME=$HOME/.config            # Where user-specific configurations should be written (analogous to /etc).
@@ -10,7 +10,7 @@ export XDG_DATA_HOME=$HOME/.local/share             # Where user-specific data f
 export XDG_STATE_HOME=$HOME/.local/state            # Where user-specific state files should be written (analogous to /var/lib).
 ```
 
-ZSH:
+**ZSH:**
 ```bash
 ## -- ZSH BABY!! -- ##
 export ZDOTDIR=$XDG_CONFIG_HOME/zsh                                       # ZSH home
