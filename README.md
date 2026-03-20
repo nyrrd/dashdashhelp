@@ -18,8 +18,9 @@ export ZDOTDIR=$XDG_CONFIG_HOME/zsh                                       # ZSH 
 ```
 
 **TASK WARRIOR**
-- https://taskwarrior.org/docs/configuration/#environment-variables
 ```bash
+# Task Warrrior - Environment Variables - https://taskwarrior.org/docs/configuration/#environment-variables
+# Arch Wiki XDG - Task - https://wiki.archlinux.org/title/XDG_Base_Directory#Partial -- 
 export TASKRC=$XDG_CONFIG_HOME/task/taskrc
 export TASKDATA=$XDG_CONFIG_HOME/task/task
 ```
