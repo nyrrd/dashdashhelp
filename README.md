@@ -32,4 +32,11 @@ export TASKRC=$XDG_CONFIG_HOME/task/taskrc
 export TASKDATA=$XDG_CONFIG_HOME/task/task
 ```
 
+**NOMACHINE:**
+```bash
+export NX_INSTALL_PREFIX=/opt                                             # Exporting the Installation directory for NX
+export NX_HOME=/opt/NX                                                    # Adding NX_HOME.
+export PATH=$PATH:$NX_HOME/bin                                            # Adding NX to PATH.
+```
+
 
