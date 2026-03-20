@@ -16,3 +16,10 @@ export XDG_STATE_HOME=$HOME/.local/state            # Where user-specific state 
 export ZDOTDIR=$XDG_CONFIG_HOME/zsh                                       # ZSH home
 #export ZSH="$ZDOTDIR/ohmyzsh"                                             # ohmyzsh installation.
 ```
+
+**TASK WARRIOR**
+- https://taskwarrior.org/docs/configuration/#environment-variables
+```bash
+export TASKRC=$XDG_CONFIG_HOME/task/taskrc
+export TASKDATA=$XDG_CONFIG_HOME/task/task
+```
