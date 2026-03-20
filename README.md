@@ -10,6 +10,8 @@ export XDG_DATA_HOME=$HOME/.local/share             # Where user-specific data f
 export XDG_STATE_HOME=$HOME/.local/state            # Where user-specific state files should be written (analogous to /var/lib).
 ```
 
+#### Tools
+
 **ZSH:**
 ```bash
 ## -- ZSH BABY!! -- ##
@@ -17,10 +19,17 @@ export ZDOTDIR=$XDG_CONFIG_HOME/zsh                                       # ZSH 
 #export ZSH="$ZDOTDIR/ohmyzsh"                                             # ohmyzsh installation.
 ```
 
-**TASK WARRIOR**
+**TMUX:**
+```bash
+export TMUX_HOME=$XDG_CONFIG_HOME/tmux                                    # TMUX Home 
+```
+
+**TASK WARRIOR:**
 ```bash
 # Task Warrrior - Environment Variables - https://taskwarrior.org/docs/configuration/#environment-variables
 # Arch Wiki XDG - Task - https://wiki.archlinux.org/title/XDG_Base_Directory#Partial --  task 
 export TASKRC=$XDG_CONFIG_HOME/task/taskrc
 export TASKDATA=$XDG_CONFIG_HOME/task/task
 ```
+
+
