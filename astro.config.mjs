@@ -9,18 +9,21 @@ export default defineConfig({
 		starlight({
 			title: 'dashdashhelp',
 			plugins: [gruvbox()],
-			social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/withastro/starlight' }],
+			social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/nyrrd/dashdashhelp' }],
 			sidebar: [
 				{
-					label: 'Guides',
+					label: 'Environment Variables',
 					items: [
 						// Each item here is one entry in the navigation menu.
-						{ label: 'Example Guide', slug: 'guides/example' },
-					],
+						{ label: 'XDG', slug: 'environment-variables/xdg' },
+						{ label: 'Shell', slug: 'environment-variables/shell' },
+						{ label: 'Tools', slug: 'environment-variables/tools' },
+						{ label: '3rd Party Tools', slug: 'environment-variables/3rd-party' },												
+					],					
 				},
 				{
-					label: 'Reference',
-					autogenerate: { directory: 'reference' },
+					label: 'Commands',
+					autogenerate: { directory: 'commands' },
 				},
 			],
 		}),
