@@ -24,6 +24,10 @@ export default defineConfig({
 				{
 					label: 'Commands',
 					autogenerate: { directory: 'commands' },
+					//label: 'Cheatsheets',
+					//autogenerate: { directory: 'cheatsheets' },
+					//label: 'Snippets',
+					//autogenerate: { directory: 'snippets' },
 				},
 			],
 		}),
