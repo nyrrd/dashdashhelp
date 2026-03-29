@@ -2,8 +2,8 @@
 
 ##### To Do:
 - [x] Basic deployment
-- [ ] Deploy Astro site
-- [ ] Gruvbox theme
+- [x] Deploy Astro site
+- [x] Gruvbox theme
 - [ ] Populate
     - [ ] Environment Variables
     - [ ] Commands
