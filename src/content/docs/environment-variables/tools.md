@@ -27,3 +27,8 @@ case ":$PATH:" in
   *) export PATH="$PNPM_HOME:$PATH" ;;
 esac
 ```
+
+**AI**
+```bash
+export OLLAMA_MODELS=$XDG_DATA_HOME/ollama/models                         # Ollama models directory
+```
