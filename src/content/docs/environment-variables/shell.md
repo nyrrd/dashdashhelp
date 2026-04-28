@@ -2,10 +2,16 @@
 title: Shell & Prompt
 description: Collection of Environment Variables for the shell
 ---
+**BASH:**
+
 **ZSH:**
+**XDG_DIRECTORY**
 ```bash
 export ZDOTDIR=$XDG_CONFIG_HOME/zsh                                       # ZSH home
-#export ZSH="$ZDOTDIR/ohmyzsh"                                             # ohmyzsh installation.
+```
+**Oh My Zsh**
+```bash
+export ZSH="$ZDOTDIR/ohmyzsh"                                             # ohmyzsh installation.
 ```
 
 **Starship Prompt:**
