@@ -1,5 +1,5 @@
 ---
-title: 3rd Party Tools
+title: Proprietary Tools
 description: Collection of Environment Variables for 3rd Party tools
 ---
 

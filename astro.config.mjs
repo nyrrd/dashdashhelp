@@ -18,7 +18,8 @@ export default defineConfig({
 						{ label: 'XDG', slug: 'environment-variables/xdg' },
 						{ label: 'Shell', slug: 'environment-variables/shell' },
 						{ label: 'Tools', slug: 'environment-variables/tools' },
-						{ label: '3rd Party Tools', slug: 'environment-variables/3rd-party' },
+						{ label: 'Proprietary Tools', slug: 'environment-variables/proprietary' },
+
 					],					
 				},
 				{
