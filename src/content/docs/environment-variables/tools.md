@@ -1,5 +1,5 @@
 ---
-title: Tools
+title: Terminal Tools
 description: Collection of Environment Variables for terminal tools
 ---
 
