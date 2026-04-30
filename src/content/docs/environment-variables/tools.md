@@ -16,18 +16,6 @@ export TASKRC=$XDG_CONFIG_HOME/task/taskrc
 export TASKDATA=$XDG_CONFIG_HOME/task/task
 ```
 
-**NODE:**
-```bash
-export NODE_REPL_HISTORY="$XDG_DATA_HOME"/node_repl_history #nodejs
-export NPM_CONFIG_USERCONFIG=$XDG_CONFIG_HOME/npm/npmrc #npm
-export NVM_DIR="$XDG_DATA_HOME"/nvm #nvm
-export PNPM_HOME="$XDG_DATA_HOME"/pnpm
-case ":$PATH:" in
-  *":$PNPM_HOME:"*) ;;
-  *) export PATH="$PNPM_HOME:$PATH" ;;
-esac
-```
-
 **AI**
 ```bash
 export OLLAMA_MODELS=$XDG_DATA_HOME/ollama/models                         # Ollama models directory
