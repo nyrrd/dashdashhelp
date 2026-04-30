@@ -15,3 +15,13 @@ case ":$PATH:" in
 esac
 ```
 
+**Docker:**
+```bash
+export DOCKER_CONFIG="$XDG_CONFIG_HOME"/docker
+```
+
+**Vagrant:**
+```bash
+export VAGRANT_HOME="$XDG_DATA_HOME"/vagrant 
+export VAGRANT_ALIAS_FILE="$XDG_DATA_HOME"/vagrant/aliases
+```
