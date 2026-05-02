@@ -16,6 +16,10 @@ export XDG_STATE_HOME=$HOME/.local/state            # Where user-specific state 
 
 **Bash:**
 
+```bash
+export BASH_COMPLETION_USER_FILE="$XDG_CONFIG_HOME"/bash-completion/bash_completion
+```
+
 **ZSH:**
 
 ```bash
