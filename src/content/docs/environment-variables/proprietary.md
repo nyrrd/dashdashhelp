@@ -11,3 +11,10 @@ export NX_INSTALL_PREFIX=/opt                                             # Expo
 export NX_HOME=/opt/NX                                                    # Adding NX_HOME.
 export PATH=$PATH:$NX_HOME/bin                                            # Adding NX to PATH.
 ```
+
+##### Graphics
+
+**CUDA:**
+```bash
+export CUDA_CACHE_PATH="$XDG_CACHE_HOME"/nv
+```
