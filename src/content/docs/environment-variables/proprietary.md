@@ -3,6 +3,8 @@ title: Proprietary Tools
 description: Collection of Environment Variables for 3rd Party tools
 ---
 
+##### Remote Desktop
+
 **NOMACHINE:**
 ```bash
 export NX_INSTALL_PREFIX=/opt                                             # Exporting the Installation directory for NX
