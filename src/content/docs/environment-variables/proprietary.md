@@ -18,3 +18,9 @@ export PATH=$PATH:$NX_HOME/bin                                            # Addi
 ```bash
 export CUDA_CACHE_PATH="$XDG_CACHE_HOME"/nv
 ```
+
+##### AI
+```bash
+export OLLAMA_MODELS=$XDG_DATA_HOME/ollama/models                         # Ollama models directory
+export CODEX_HOME="$XDG_CONFIG_HOME"/codex
+```
