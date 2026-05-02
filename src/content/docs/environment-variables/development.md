@@ -3,6 +3,7 @@ title: Development
 description: Environment variables for various development tools and packages.
 ---
 
+##### Developmet Tools
 **Node:**
 ```bash
 export NODE_REPL_HISTORY="$XDG_DATA_HOME"/node_repl_history #nodejs
@@ -14,7 +15,7 @@ case ":$PATH:" in
   *) export PATH="$PNPM_HOME:$PATH" ;;
 esac
 ```
-
+##### Containers and VMs
 **Docker:**
 ```bash
 export DOCKER_CONFIG="$XDG_CONFIG_HOME"/docker
