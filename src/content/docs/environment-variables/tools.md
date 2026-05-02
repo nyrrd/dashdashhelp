@@ -1,7 +1,9 @@
 ---
-title: Terminal Tools
+title: Tools
 description: Collection of Environment Variables for terminal tools
 ---
+
+##### Terminal
 
 **TMUX:**
 ```bash
@@ -16,7 +18,8 @@ export TASKRC=$XDG_CONFIG_HOME/task/taskrc
 export TASKDATA=$XDG_CONFIG_HOME/task/task
 ```
 
-**AI**
+##### Media
+
 ```bash
-export OLLAMA_MODELS=$XDG_DATA_HOME/ollama/models                         # Ollama models directory
+export FFMPEG_DATADIR="$XDG_CONFIG_HOME"/ffmpeg
 ```
