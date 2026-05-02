@@ -23,3 +23,17 @@ export TASKDATA=$XDG_CONFIG_HOME/task/task
 ```bash
 export FFMPEG_DATADIR="$XDG_CONFIG_HOME"/ffmpeg
 ```
+
+##### Web
+
+**Browsers:**
+```bash
+## Browsers 
+export W3M_DIR=$XDG_STATE_HOME/w3m                                        # w3m configuration directory
+export LYNX_CFG="$XDG_CONFIG_HOME"/lynx.cfg				  # LYNX config file
+```
+
+**WGET:**
+```bash
+export WGETRC="$XDG_CONFIG_HOME/wgetrc"					  # WGET configuration
+```
