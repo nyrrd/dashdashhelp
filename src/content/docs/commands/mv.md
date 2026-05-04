@@ -4,7 +4,7 @@ description: move
 ---
 
 ```bash
- mv --help
+$ mv --help
 Usage: mv [OPTION]... [-T] SOURCE DEST
   or:  mv [OPTION]... SOURCE... DIRECTORY
   or:  mv [OPTION]... -t DIRECTORY SOURCE...

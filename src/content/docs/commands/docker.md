@@ -4,7 +4,7 @@ description: docker commands
 ---
 
 ```bash
- docker --help 
+$ docker --help 
 Usage:  docker [OPTIONS] COMMAND
 
 A self-sufficient runtime for containers
