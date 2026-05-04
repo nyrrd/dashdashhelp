@@ -1,5 +1,67 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="512" height="512" viewBox="0 0 512 512">
-<path fill-rule="nonzero" fill="rgb(20%, 20%, 20%)" fill-opacity="1" d="M 135.464844 67.734375 C 135.464844 105.140625 105.140625 135.464844 67.734375 135.464844 C 30.324219 135.464844 0 105.140625 0 67.734375 C 0 30.324219 30.324219 0 67.734375 0 C 105.140625 0 135.464844 30.324219 135.464844 67.734375 Z M 135.464844 67.734375 "/>
-<path fill-rule="nonzero" fill="rgb(80%, 80%, 80%)" fill-opacity="1" d="M 26.464844 78.039062 L 26.464844 72.539062 L 43.542969 72.539062 L 43.542969 78.039062 Z M 58.558594 56.304688 C 58.558594 58.191406 58.441406 59.957031 58.214844 61.601562 L 58.636719 61.601562 C 59.855469 59.664062 61.511719 58.207031 63.605469 57.226562 C 65.699219 56.238281 67.96875 55.742188 70.417969 55.742188 C 75.03125 55.742188 78.488281 56.835938 80.792969 59.023438 C 83.09375 61.210938 84.246094 64.726562 84.246094 69.570312 L 84.246094 94.195312 L 78.105469 94.195312 L 78.105469 69.992188 C 78.105469 63.921875 75.28125 60.882812 69.636719 60.882812 C 65.40625 60.882812 62.5 62.078125 60.917969 64.460938 C 59.34375 66.835938 58.558594 70.234375 58.558594 74.648438 L 58.558594 94.195312 L 52.355469 94.195312 L 52.355469 40.570312 L 58.558594 40.570312 Z M 23.636719 18.769531 "/>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="512"
+   height="512"
+   viewBox="0 0 135.46667 135.46667"
+   version="1.1"
+   id="svg1"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1" />
+  <g
+     id="layer4"
+     style="display:inline"
+     transform="translate(-186.26666,-75.141664)">
+    <g
+       id="layer2"
+       style="display:none;fill:#333333">
+      <circle
+         style="opacity:1;fill:#333333;stroke:#000000;stroke-width:0;stroke-linecap:round;stroke-linejoin:round"
+         id="path2"
+         cx="254.00002"
+         cy="142.875"
+         r="67.733337" />
+    </g>
+    <g
+       id="layer3">
+      <text
+         xml:space="preserve"
+         style="font-size:70.5556px;font-family:Serif;-inkscape-font-specification:Serif;writing-mode:lr-tb;direction:ltr;opacity:1;fill:#333333;stroke:#000000;stroke-width:0;stroke-linecap:round;stroke-linejoin:round"
+         x="209.90276"
+         y="169.33336"
+         id="text1"><tspan
+           id="tspan1"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:70.5556px;font-family:'BigBlueTerm437 Nerd Font';-inkscape-font-specification:'BigBlueTerm437 Nerd Font';fill:#cccccc;stroke-width:0"
+           x="209.90276"
+           y="169.33336">-h</tspan></text>
+    </g>
+  </g>
+  <g
+     id="layer5"
+     style="display:none"
+     transform="translate(-186.26666,-75.141664)">
+    <g
+       id="layer6">
+      <rect
+         style="opacity:1;fill:#333333;stroke:#000000;stroke-width:0;stroke-linecap:round;stroke-linejoin:round"
+         id="rect2"
+         width="508"
+         height="285.75"
+         x="0"
+         y="0" />
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:70.5556px;font-family:'BigBlueTerm437 Nerd Font';-inkscape-font-specification:'BigBlueTerm437 Nerd Font';writing-mode:lr-tb;direction:ltr;opacity:0.988737;fill:#333333;stroke:#000000;stroke-width:0;stroke-linecap:round;stroke-linejoin:round"
+       x="98.895386"
+       y="163.45375"
+       id="text2"><tspan
+         id="tspan2"
+         style="fill:#cccccc;stroke-width:0"
+         x="98.895386"
+         y="163.45375">--help</tspan></text>
+  </g>
 </svg>
