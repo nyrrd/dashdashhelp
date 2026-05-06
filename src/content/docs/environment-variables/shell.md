@@ -37,3 +37,9 @@ export ZSH="$ZDOTDIR/ohmyzsh"                                             # ohmy
 export STARSHIP_CONFIG=$XDG_CONFIG_HOME/starship.toml                     # Starship configuration
 export STARSHIP_CACHE=$XDG_CACHE_HOME/starship                            # Starship configuration cache
 ```
+
+##### Window Manager
+**Sway**
+```bash
+export SWAY_HOME=$XDG_CONFIG_HOME/sway/                                   # Sway configuration files
+```
