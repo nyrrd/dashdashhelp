@@ -17,6 +17,21 @@ case ":$PATH:" in
 esac
 ```
 
+**Ruby:**
+```bash
+export GEM_HOME="$(gem env user_gemhome)"                                 # GEM home
+export PATH=$PATH:$GEM_HOME/bin                                           # Adding gems to PATH
+export BUNDLE_USER_CACHE=$XDG_CACHE_HOME/bundle                           # Ruby Bundler cache
+export BUNDLE_USER_CONFIG=$XDG_CONFIG_HOME/bundle/config                  # Ruby Bundler configuration dir
+export BUNDLE_USER_PLUGIN=$XDG_DATA_HOME/bundle                           # Ruby Bundler data files
+```
+
+**Go:**
+```bash
+export GOPATH=$XDG_DATA_HOME/go                                           # GO 
+export GOMODCACHE=$XDG_CACHE_HOME/go/mod                                  # GO Cache
+```
+
 ##### Containers and VMs
 
 **Docker:**
