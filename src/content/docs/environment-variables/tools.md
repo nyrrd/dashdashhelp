@@ -26,7 +26,7 @@ export FFMPEG_DATADIR="$XDG_CONFIG_HOME"/ffmpeg
 
 ##### Web
 
-**Browsers:**
+**Browsers:**<br>
 ***W3M***
 ```bash 
 export W3M_DIR=$XDG_STATE_HOME/w3m                                        # w3m configuration directory
