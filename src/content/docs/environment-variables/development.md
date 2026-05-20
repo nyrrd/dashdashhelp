@@ -5,6 +5,11 @@ description: Environment variables for various development tools and packages.
 
 ##### Developmet Tools
 
+**Jupyter**
+```bash
+export JUPYTER_CONFIG_DIR=$XDG_CONFIG_HOME/jupyter                        # Jupyter configuration home
+```
+
 **Node:**
 ```bash
 export NODE_REPL_HISTORY="$XDG_DATA_HOME"/node_repl_history #nodejs
