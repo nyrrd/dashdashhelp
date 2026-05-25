@@ -1,5 +1,5 @@
 ---
-title: "Docker Compose"
+title: "docker compose"
 description: "Help for docker compose"
 ---
 
