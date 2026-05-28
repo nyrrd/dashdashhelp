@@ -14,15 +14,19 @@ export JUPYTER_CONFIG_DIR=$XDG_CONFIG_HOME/jupyter                        # Jupy
 ```bash
 export NODE_REPL_HISTORY="$XDG_DATA_HOME"/node_repl_history #nodejs
 ```
-NPM:
+Node REPL (Read-Eval-Print-Loop) History
+```bash
+export NODE_REPL_HISTORY="$XDG_DATA_HOME"/node_repl_history
+```
+**NPM:**
 ```bash
 export NPM_CONFIG_USERCONFIG=$XDG_CONFIG_HOME/npm/npmrc #npm
 ```
-NVM:
+**NVM:**
 ```bash
 export NVM_DIR="$XDG_DATA_HOME"/nvm #nvm
 ```
-PNPM:
+**PNPM:**
 ```bash
 export PNPM_HOME="$XDG_DATA_HOME"/pnpm
 case ":$PATH:" in
