@@ -44,6 +44,11 @@ export GOMODCACHE=$XDG_CACHE_HOME/go/mod                                  # GO C
 export DOCKER_CONFIG="$XDG_CONFIG_HOME"/docker
 ```
 
+**Kubernetes:**
+```bash
+export MINIKUBE_HOME="$XDG_DATA_HOME"/minikube
+```
+
 **Vagrant:**
 ```bash
 export VAGRANT_HOME="$XDG_DATA_HOME"/vagrant 
