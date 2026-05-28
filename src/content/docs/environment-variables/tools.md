@@ -10,6 +10,11 @@ description: Collection of Environment Variables for terminal tools
 export TMUX_HOME=$XDG_CONFIG_HOME/tmux                                    # TMUX Home 
 ```
 
+**RipGrep:**
+```bash
+export RIPGREP_CONFIG_PATH=$XDG_CONFIG_HOME/ripgrep/config
+```
+
 **TASK WARRIOR:**
 ```bash
 # Task Warrrior - Environment Variables - https://taskwarrior.org/docs/configuration/#environment-variables
