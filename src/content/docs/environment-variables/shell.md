@@ -25,7 +25,8 @@ export BASH_COMPLETION_USER_FILE="$XDG_CONFIG_HOME"/bash-completion/bash_complet
 ```bash
 export ZDOTDIR=$XDG_CONFIG_HOME/zsh                                       # ZSH home
 ```
-Oh My Zsh
+
+Oh My Zsh:
 ```bash
 export ZSH="$ZDOTDIR/ohmyzsh"                                             # ohmyzsh installation.
 ```
@@ -39,6 +40,7 @@ export STARSHIP_CACHE=$XDG_CACHE_HOME/starship                            # Star
 ```
 
 ##### Window Manager
+
 **Sway**
 ```bash
 export SWAY_HOME=$XDG_CONFIG_HOME/sway/                                   # Sway configuration files
