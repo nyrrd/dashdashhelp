@@ -79,3 +79,5 @@ export ANSIBLE_LOCAL_TEMP="${XDG_CACHE_HOME}/ansible/tmp"
 export ANSIBLE_SSH_CONTROL_PATH_DIR="${XDG_CACHE_HOME}/ansible/cp"
 export ANSIBLE_ASYNC_DIR="${XDG_CACHE_HOME}/ansible_async"
 ```
+
+Reference: https://wiki.archlinux.org/title/XDG_Base_Directory

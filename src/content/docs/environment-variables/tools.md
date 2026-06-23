@@ -45,3 +45,5 @@ export LYNX_CFG="$XDG_CONFIG_HOME"/lynx.cfg				  # LYNX config file
 ```bash
 export WGETRC="$XDG_CONFIG_HOME/wgetrc"					  # WGET configuration
 ```
+
+Reference: https://wiki.archlinux.org/title/XDG_Base_Directory

@@ -45,3 +45,6 @@ export STARSHIP_CACHE=$XDG_CACHE_HOME/starship                            # Star
 ```bash
 export SWAY_HOME=$XDG_CONFIG_HOME/sway/                                   # Sway configuration files
 ```
+
+
+Reference: https://wiki.archlinux.org/title/XDG_Base_Directory 
