@@ -1,5 +1,5 @@
 ---
-title: mat2 --help
+title: mat2 
 description: Metadata anonymisation toolkit 2
 ---
 
