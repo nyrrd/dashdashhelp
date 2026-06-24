@@ -1,5 +1,5 @@
 ---
-title: Package Manager 
+title: Package Managers 
 description: Various package manager aliases and use cases
 ---
 
@@ -15,6 +15,11 @@ List packages with available updates:
 pacman -Qu
 ```
 
+Perform a system update:
+```bash
+pacman -Syu
+```
+
 Install a specific package:
 ```bash
 pacman -S <package_name>
@@ -28,4 +33,33 @@ pacman -Qi | awk '/^Name/{name=$3} /^Installed Size/{print $4$5, name}' | sort -
 Counts the number of installed packages on system:
 ```bash
 pacman -Qi | awk '/^Name/{name=$3} /^Installed Size/{print $4$5, name}' | sort -h | wc -l
+```
+
+---
+
+#### APT (Debian/Ubuntu)
+
+Update the systems package database:
+```bash
+apt update
+```
+
+Install a specific package:
+```bash
+apt install <package_name>
+```
+
+List packages with updates:
+```bash
+apt list -u
+```
+
+List installed packages on the system:
+```bash
+apt list -i
+```
+
+Upgrade packages on system:
+```bash
+apt upgrade
 ```
